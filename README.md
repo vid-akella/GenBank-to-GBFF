@@ -1,4 +1,4 @@
 # GenBank-to-GBFF
 Combines .gb files that contain single sequence records and outputs as a concatenated single file in .gbff format. In the gbff file, records are not simply concatenated but sorted by decreasing order of sequence length. Typically gbff file represents the complete genome of an organism. For example, for a bacterial genome, a gbff file would contain the complete circular genome and any plasmid sequences the organism may contain.
-
+## Testing module
 The test module is named GenbankToGbff_test.py. It contains a suite of tests to ensure Genbank-to-Gbff.py script is generating the correct output. It is using a small dataset as benchmark to compare output of the script. The benchmarking dataset is in the input_gb_files folder. The tests are unittest testcases and confirmed using the assert methods.
